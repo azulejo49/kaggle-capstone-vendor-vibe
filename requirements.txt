@@ -1,0 +1,13 @@
+# Google GenAI SDK Core Environment
+google-genai>=0.1.1
+
+# Operational Utilities
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+--
+🛠️ Dependency Breakdown:
+#google-genai: Mandatory. This is the official, modern SDK required to orchestrate your gemini-2.5-flash model and multi-agent execution routines.
+
+#pydantic: Recommended. This enforces strict data validation for your Extractor Agent's JSON outputs, ensuring the data structure is robust before it is passed to the Auditor Agent
+
+#python-dotenv: Recommended. This allows you to securely manage your GEMINI_API_KEY using a local, git-ignored .env file instead of manually exporting terminal commands every session.

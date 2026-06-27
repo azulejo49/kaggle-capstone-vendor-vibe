@@ -1,0 +1,10 @@
+### Project Abstract
+VendorVibe is an autonomous, multi-agent AI system built for the "Agents for Business" track. It automates the verification of B2B supplier invoices against internal corporate purchase orders (POs) and drafts automated dispute emails when pricing mismatches occur.
+
+### Course Concepts Demonstrated
+1. Multi-Agent Design: Separates business logic between an Extractor Agent and an Auditor Agent using gemini-2.5-flash.
+2. Model Context Protocol (MCP): Implements a secure database fetching framework ensuring zero corporate data leaks.
+3. Agent CLI Pipeline: Utilizes command-line parsing to enable seamless, programmatic local execution.
+
+### Production Security
+API keys are systematically handled via runtime environment variables (`os.environ.get`), eliminating hardcoded cleartext credentials from the open-source repository.
