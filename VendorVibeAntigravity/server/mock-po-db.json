@@ -1,0 +1,20 @@
+{
+  "PO-1001": {
+    "poNumber": "PO-1001",
+    "vendor": "Acme Corp",
+    "lineItems": [
+      { "description": "Widget A", "qty": 100, "price": 10.50 },
+      { "description": "Widget B", "qty": 50, "price": 20.00 }
+    ],
+    "total": 2050.00
+  },
+  "PO-2002": {
+    "poNumber": "PO-2002",
+    "vendor": "TechSupply Inc",
+    "lineItems": [
+      { "description": "Laptop Stand", "qty": 10, "price": 45.00 },
+      { "description": "Wireless Mouse", "qty": 10, "price": 25.00 }
+    ],
+    "total": 700.00
+  }
+}

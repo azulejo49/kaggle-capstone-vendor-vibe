@@ -1,0 +1,17 @@
+{
+  "name": "vendorvibe-server",
+  "version": "1.0.0",
+  "description": "Backend for VendorVibe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
